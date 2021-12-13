@@ -1,0 +1,44 @@
+/* Start body html   */
+body, html {
+    height: 100%;
+    text-align: right; 
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+/* Start NavBar Attributes */
+.NavBar {
+  background-color: white;
+}
+/* Start Unordered List Nav Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 40%;
+  }
+/* Start List Items Nav Bar */
+li {
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+  }
+  /* Start List Item Anchors Nav Bar */
+li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 40px 50px;
+  }
+/* Start Hover for Nav Bar */
+li a:hover {
+    background-color:whitesmoke;
+    position: fixed;
+  }
+/* Start footer  */
+*footer {
+  float: left;
+  text-align: center;
+}
