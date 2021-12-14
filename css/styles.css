@@ -1,44 +1,77 @@
 /* Start body html   */
 body, html {
-    height: 100%;
-    text-align: right; 
-    margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-/* Start NavBar Attributes */
-.NavBar {
-  background-color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  margin: 0;
+ }
+/* Start NavBar */
+.NavBar{
+  background: rgb(31,31,40);
+  background: linear-gradient(90deg, rgba(31,31,40,1) 0%, rgba(87,83,27,1) 50%, rgba(50,41,47,1) 100%);
 }
-/* Start Unordered List Nav Bar */
+/* Unordered List Stuff */
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: absolute;
-    left: 40%;
-  }
-/* Start List Items Nav Bar */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* List Items */
 li {
-    float: left;
-    text-align: center;
-    width: 100px;
-    height: 100px;
-  }
-  /* Start List Item Anchors Nav Bar */
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+/* List Item Anchors */
 li a {
-    display: block;
-    color: black;
-    text-align: right;
-    padding: 40px 50px;
-  }
-/* Start Hover for Nav Bar */
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 40px 30px;
+}
+/* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color:whitesmoke;
-    position: fixed;
-  }
-/* Start footer  */
-*footer {
-  float: left;
+  background-color: burlywood;
+  padding: 40px 30px;
+}
+ /* Start Hero Image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/RivalryDJ.jpg");
+/* Set a specific height */
+  height: 100%;
+/* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* Start Header Font */
+.HeadFont {
+  font-family: 'Kanit', sans-serif;
+  color: blanchedalmond;
+  margin-top: 0px;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+/* Start Paragraph Font Details */
+.Parastuff{
+  color: blanchedalmond;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: right;
+  font-size: 20px;
+  font: bold;
+  padding-right: 25px;
+  padding-top: 65px;
+}
+/* Footer starts here */
+footer {
   text-align: center;
+  background: rgb(31,31,40);
+  background: linear-gradient(90deg, rgba(31,31,40,1) 0%, rgba(87,83,27,1) 50%, rgba(50,41,47,1) 100%);
+  color: blanchedalmond;
+  font-style: normal;
+  font-family: 'kanit';
 }
