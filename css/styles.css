@@ -56,6 +56,30 @@ li a:hover {
   padding-right: 25px;
   padding-top: 10px;
 }
+a:link {
+  color: blanchedalmond;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
 /* Start Paragraph Font Details */
 .Parastuff{
   color: blanchedalmond;
@@ -64,7 +88,7 @@ li a:hover {
   font-size: 20px;
   font: bold;
   padding-right: 25px;
-  padding-top: 65px;
+  /* padding-top: 65px; */
 }
 /* Footer starts here */
 footer {

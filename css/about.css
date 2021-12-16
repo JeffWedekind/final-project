@@ -53,13 +53,19 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
     font-family: 'Kanit', sans-serif;
     color: blanchedalmond;
     margin-top: 0px;
-}
+}  
 /* Start Paragraph Font Details */
 .Parastuff{
     color: blanchedalmond;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     padding-right: 25px;
+    margin-top: 0px;
+}
+.bottomright{
+    position: relative;
+    margin-top: 400px;
+    margin-bottom: 100px;
 }
 /* Footer starts here */
 footer {
