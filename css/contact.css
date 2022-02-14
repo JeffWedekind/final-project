@@ -1,99 +1,16 @@
 /* Start body html   */
-body, html {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 100%;
-    height: 100%;
-    text-align: right;
-    margin: 0;
-}
-/* Start NavBar */
-.NavBar{
-    background: rgb(31,31,40);
-    background: linear-gradient(90deg, rgba(31,31,40,1) 0%, rgba(87,83,27,1) 50%, rgba(50,41,47,1) 100%); 
-}
-/* Unordered List Stuff */
-ul {
-    list-style-type: none;
+* {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-}
-/* List Items */
-li {
-    float: right;
-    width: 100px;
-    height: 100px;
-}
-/* List Item Anchors */
-li a {
-    display: block;
-    color: white;
-    text-align: right;
-    padding: 40px 30px;
-}
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: burlywood;
-    padding: 40px 30px;
-}
-/* Start Hero Image */
-.hero-image {
-/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/DJdad.jpg");
-/* Set a specific height */
-    height: 150%;
-/* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-/* Start Header Font */
-.HeadFont {
-    font-family: 'Kanit', sans-serif;
-    color: blanchedalmond;
-    margin-top: 0px;
-    padding-right: 25px;
-    padding-top: 10px;
-}
-/* Start Paragraph Font Details */
-.Parastuff{
-    color: blanchedalmond;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    padding-right: 25px;
-}
-a:link {
-    color: blanchedalmond;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: transparent;
-    text-decoration: none;
-}
-  
-  a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-}
-  
-  a:hover {
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
-}
-  
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
- }
-/* Footer starts here */
-footer {
-    text-align: center;
-    background: rgb(31,31,40);
-    background: linear-gradient(90deg, rgba(31,31,40,1) 0%, rgba(87,83,27,1) 50%, rgba(50,41,47,1) 100%);
-    color: blanchedalmond;
-    font-style: normal;
-    font-family: 'kanit';
-}
-  
+  }
+  /* Start NavBar */
+  .navbar-brand{
+    font-family: 'Calligraffitti', cursive;
+  }
+  .TestBG {
+    height: 100%;
+    width: 100%;
+    background-color: #355070; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #355070, #a5a58d);
+    font-family: 'Calligraffitti', cursive;
+  }
